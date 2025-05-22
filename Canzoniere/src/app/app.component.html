@@ -1,3 +1,7 @@
 @for(son of vettSong; track son){
     <app-song-list [canz]="son"></app-song-list>
 }
+
+@for(dets of vettSong; track dets){
+    <app-dettagli-album [detag]="dets"></app-dettagli-album>
+}
