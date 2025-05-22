@@ -1,10 +1,10 @@
 export class Song {
-    datauscita: string
+    data_uscita: string
     durata: string
     title: string
 
-    constructor(datauscita: string, durata: string, title: string){
-        this.datauscita = datauscita
+    constructor(data_uscita: string, durata: string, title: string){
+        this.data_uscita = data_uscita
         this.durata = durata
         this.title = title
 
