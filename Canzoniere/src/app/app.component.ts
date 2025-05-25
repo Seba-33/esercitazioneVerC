@@ -20,6 +20,7 @@ export class AppComponent implements OnInit{
   data!: object
   http!: HttpClient
   vettSong: Song[] = []
+  vettDet: Song[] = []
 
   constructor(http: HttpClient){this.http = http}
 
