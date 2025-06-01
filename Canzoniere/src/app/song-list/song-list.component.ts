@@ -13,7 +13,7 @@ export class SongListComponent {
   @Input() det! : Song[]
 
   dettagli(){
-    this.det.push(new Song(this.canz.data_uscita,this.canz.title,this.canz.durata))
+    this.det.push(new Song(this.canz.data_uscita, this.canz.durata, this.canz.title))
     console.log(" Data uscita: " + this.canz.data_uscita + " Durata: " + this.canz.durata)
   }
 
